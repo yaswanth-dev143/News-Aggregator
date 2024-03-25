@@ -1,0 +1,17 @@
+Api key : 35b188a92ccc4c2ba4f3fde9b07eb1ca
+
+
+<div className="flex items-center w-[60%] gap-[60px] ">
+                <div className=" w-[30%] h-[30%]">
+                  <img
+                    src={item.urlToImage}
+                    className="object-cover w-[100%] h-[100%]"
+                    alt="different-news-images"
+                  />
+                </div>
+                <div className="">
+                  <p> {item.title} </p>
+                  <p> {item.description} </p>
+                  <a href={item.url}> -{item.author} </a>
+                </div>
+              </div>
